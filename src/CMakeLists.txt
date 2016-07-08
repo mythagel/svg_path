@@ -4,4 +4,4 @@ IF(UNIX)
 ENDIF()
 
 INCLUDE_DIRECTORIES(${CXXCAM_INCLUDE_DIR}/svg_path)
-ADD_LIBRARY(svg_path STATIC basic.cpp numberlist.cpp path.cpp transform.cpp)
+ADD_LIBRARY(svg_path STATIC basic.cpp path.cpp transform.cpp)
