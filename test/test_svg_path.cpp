@@ -44,6 +44,11 @@ struct normalise_path : svg::types::parsers::path::parser
     	s << (abs?"T" : "t") << " " << x << " " << y << " ";
 	}
 
+	void elliptical_arc_to(bool abs, float rx, float ry, float x_rotation, bool large_arc, bool sweep, float x, float y)
+    {
+        // TODO
+    }
+
 	void close_path() override
 	{
 	    s << "Z" << " ";
