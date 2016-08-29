@@ -11,6 +11,7 @@
 #include <cctype>
 #include <stdexcept>
 #include <cstdlib>
+#include <cerrno>
 
 namespace svg
 {

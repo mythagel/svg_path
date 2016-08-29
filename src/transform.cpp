@@ -325,7 +325,7 @@ std::array<float, 6> parse_transforms(const char* c, const char* const end)
 			throw parse_error{"expected wsp / matrix / translate / scale / rotate / skewX / skewY"};
 	}
 
-    return { t(0,0), t(1,0), t(0,1), t(1,1), t(0,2), t(1,2) };
+    return { { t(0,0), t(1,0), t(0,1), t(1,1), t(0,2), t(1,2) } };
 }
 
 }
